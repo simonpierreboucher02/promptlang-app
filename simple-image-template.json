@@ -1,0 +1,96 @@
+{
+  "title": "Artistic Portrait Generator",
+  "description": "Create artistic portraits in various styles and moods.",
+  "category": "Art & Creative",
+  "promptText": "Create an artistic portrait of a {subject} in {art_style} style. Mood: {mood}. The artwork should be {quality} with {colors} color palette. Background: {background}.",
+  "role": "Digital artist",
+  "inputType": "Artistic specifications",
+  "objective": "Generate creative artistic portraits",
+  "outputFormat": "Artistic portrait image",
+  "modelCompatibility": ["dall-e-3"],
+  "inputFields": [
+    {
+      "name": "subject",
+      "label": "Subject",
+      "type": "text",
+      "placeholder": "e.g., young woman, elderly man, child",
+      "required": true
+    },
+    {
+      "name": "art_style",
+      "label": "Art Style",
+      "type": "select",
+      "placeholder": "Select art style",
+      "required": true,
+      "options": [
+        "watercolor",
+        "oil painting",
+        "digital art",
+        "pencil sketch",
+        "impressionist",
+        "pop art",
+        "realistic"
+      ]
+    },
+    {
+      "name": "mood",
+      "label": "Mood",
+      "type": "select",
+      "placeholder": "Select mood",
+      "required": true,
+      "options": [
+        "serene",
+        "contemplative",
+        "joyful",
+        "mysterious",
+        "dramatic",
+        "peaceful"
+      ]
+    },
+    {
+      "name": "quality",
+      "label": "Quality",
+      "type": "select",
+      "placeholder": "Select quality",
+      "required": true,
+      "options": [
+        "highly detailed",
+        "stylized",
+        "expressive",
+        "photorealistic"
+      ]
+    },
+    {
+      "name": "colors",
+      "label": "Color Palette",
+      "type": "select",
+      "placeholder": "Select colors",
+      "required": true,
+      "options": [
+        "warm earth tones",
+        "cool blues and greens",
+        "vibrant and bold",
+        "soft pastels",
+        "black and white",
+        "golden hour"
+      ]
+    },
+    {
+      "name": "background",
+      "label": "Background",
+      "type": "select",
+      "placeholder": "Select background",
+      "required": true,
+      "options": [
+        "abstract",
+        "nature scene",
+        "solid color",
+        "geometric patterns",
+        "blurred bokeh"
+      ]
+    }
+  ],
+  "promptType": "image",
+  "rating": 4,
+  "tags": ["portrait", "artistic", "creative", "style"]
+}

@@ -1,0 +1,106 @@
+{
+  "title": "Logo Design Creator",
+  "description": "Generate professional logos for businesses and brands with customizable style, colors, and industry focus.",
+  "category": "Design & Branding",
+  "promptText": "Create a professional logo for a {company_type} company called \"{company_name}\". Style: {design_style}, Color scheme: {color_scheme}, Industry: {industry}. The logo should be modern, memorable, and scalable. Include the company name in the design. Background: {background_type}.",
+  "role": "Brand designer",
+  "inputType": "Company details",
+  "objective": "Create professional brand logos",
+  "outputFormat": "High-quality logo image",
+  "modelCompatibility": ["dall-e-3", "dall-e-2"],
+  "inputFields": [
+    {
+      "name": "company_name",
+      "label": "Company Name",
+      "type": "text",
+      "placeholder": "Enter company name (e.g., TechFlow, GreenLeaf Cafe)",
+      "required": true
+    },
+    {
+      "name": "company_type",
+      "label": "Company Type",
+      "type": "select",
+      "placeholder": "Select company type",
+      "required": true,
+      "options": [
+        "tech startup",
+        "consulting firm",
+        "restaurant",
+        "retail store",
+        "healthcare provider",
+        "creative agency",
+        "financial services",
+        "educational institution"
+      ]
+    },
+    {
+      "name": "industry",
+      "label": "Industry",
+      "type": "select",
+      "placeholder": "Select industry",
+      "required": true,
+      "options": [
+        "technology",
+        "healthcare",
+        "finance",
+        "education",
+        "food & beverage",
+        "retail",
+        "real estate",
+        "automotive",
+        "entertainment",
+        "environmental"
+      ]
+    },
+    {
+      "name": "design_style",
+      "label": "Design Style",
+      "type": "select",
+      "placeholder": "Select design style",
+      "required": true,
+      "options": [
+        "minimalist",
+        "modern geometric",
+        "vintage classic",
+        "bold and dynamic",
+        "elegant sophisticated",
+        "playful creative",
+        "professional corporate"
+      ]
+    },
+    {
+      "name": "color_scheme",
+      "label": "Color Scheme",
+      "type": "select",
+      "placeholder": "Select color scheme",
+      "required": true,
+      "options": [
+        "blue and white",
+        "green and earth tones",
+        "red and black",
+        "purple and silver",
+        "orange and gray",
+        "black and white",
+        "multicolor vibrant",
+        "monochromatic"
+      ]
+    },
+    {
+      "name": "background_type",
+      "label": "Background",
+      "type": "select",
+      "placeholder": "Select background",
+      "required": true,
+      "options": [
+        "transparent",
+        "white",
+        "dark",
+        "gradient",
+        "textured"
+      ]
+    }
+  ],
+  "promptType": "image",
+  "rating": 5,
+  "tags": ["logo", "branding", "design", "business", "corporate"]
+}
