@@ -1,8 +1,32 @@
 # PromptLang 
 
+[![GitHub](https://img.shields.io/badge/GitHub-simonpierreboucher02-blue?style=flat-square&logo=github)](https://github.com/simonpierreboucher02)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6.3-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.3.1-blue?style=flat-square&logo=react)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-Express-blue?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon-blue?style=flat-square&logo=postgresql)](https://www.postgresql.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.19-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+
+[![Code Size](https://img.shields.io/badge/Code_Lines-8,849-orange?style=flat-square)](https://github.com/simonpierreboucher02/promptlang-app)
+[![Files](https://img.shields.io/badge/TypeScript_Files-78-purple?style=flat-square)](https://github.com/simonpierreboucher02/promptlang-app)
+[![Dependencies](https://img.shields.io/badge/Dependencies-50+-yellow?style=flat-square)](https://github.com/simonpierreboucher02/promptlang-app)
+[![AI Models](https://img.shields.io/badge/AI_Models-OpenAI%20%7C%20Anthropic%20%7C%20DALL--E-brightgreen?style=flat-square)](https://github.com/simonpierreboucher02/promptlang-app)
+
+> **Repository**: [https://github.com/simonpierreboucher02/promptlang-app](https://github.com/simonpierreboucher02/promptlang-app)
+
 ## Overview
 
 PromptLang is a minimalist search engine for exploring, understanding, and testing AI prompts. It serves as a reference tool for discovering high-quality prompts for various AI models, with built-in testing capabilities and admin management.
+
+### 🚀 Key Features
+- **🔍 Smart Search**: Advanced prompt discovery with keyword matching
+- **🧪 Live Testing**: Test prompts with OpenAI, Anthropic, and DALL-E models
+- **📊 Admin Dashboard**: Complete CRUD operations for prompt management
+- **🎨 Modern UI**: Beautiful interface built with Tailwind CSS and shadcn/ui
+- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices
+- **🔄 Real-time Updates**: Instant feedback and live model responses
 
 ## System Architecture
 
@@ -83,6 +107,37 @@ PromptLang is a minimalist search engine for exploring, understanding, and testi
 - `OPENAI_API_KEY`: OpenAI API access token
 - `NODE_ENV`: Environment designation
 
+## 🛠️ Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/simonpierreboucher02/promptlang-app.git
+cd promptlang-app
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env with your API keys and database URL
+
+# Run database migrations
+npm run db:push
+
+# Start development server
+npm run dev
+```
+
+## 📈 Project Metrics
+
+- **📊 Total Lines of Code**: 8,849
+- **📁 TypeScript Files**: 78
+- **🔧 Dependencies**: 50+
+- **🎯 Supported AI Models**: OpenAI GPT-4, Claude, DALL-E
+- **⚡ Build Tool**: Vite
+- **🎨 UI Framework**: Tailwind CSS + shadcn/ui
+- **🗄️ Database**: PostgreSQL (Neon)
+
 ## Changelog
 
 - July 04, 2025. Initial setup with complete database schema and sample data
@@ -118,6 +173,20 @@ PromptLang is a minimalist search engine for exploring, understanding, and testi
   * Created 3 sample image prompts: Professional Portrait Generator, Creative Concept Art Generator, Product Visualization Creator
   * Updated documentation to include DALL-E models in supported models section
 
-## User Preferences
+## 🤝 Contributing
 
-Preferred communication style: Simple, everyday language.
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Simon Pierre Boucher**
+- GitHub: [@simonpierreboucher02](https://github.com/simonpierreboucher02)
+- Repository: [promptlang-app](https://github.com/simonpierreboucher02/promptlang-app)
+
+---
+
+⭐ **Star this repository if you find it helpful!**
